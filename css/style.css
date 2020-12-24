@@ -1,0 +1,362 @@
+@charset "utf-8";
+body{
+    background-color:#F0F0F0;
+}
+.banner{
+    width: 16rem;
+    height: 7.125rem;
+    position: relative;
+}
+.banner .span{
+    position: absolute;
+    left: 12.6rem; top: 5.75rem;
+}
+.banner .span .active{
+    background-color: white;
+}
+.banner .span span{
+    display: inline-block;
+    width: 0.15rem;
+    height: 0.15rem;
+    line-height: 0.15rem;
+    border: 1px solid white;
+    border-radius: 6px;
+    color: white;
+    font-size: 0.15rem;
+}
+.banner .img img{
+    width: 100%;
+    height: 100%;
+}
+.banner .left{
+    position: absolute;
+    left: 0.4rem;top: 0.4rem;
+}
+.banner .left span{
+    display: inline-block;
+    font-size: 0.975rem;
+    color: white;
+    width: 0.975rem;
+    height: 0.775rem;
+}
+.banner .left p{
+    font-size: 0.5rem;
+    color: white;
+}
+.banner input{
+    position: absolute;
+    left: 2.125rem;top: 0.375rem;
+    width: 11.125rem;
+    height: 1.5rem;
+    border-radius: 0.15rem;
+}
+.banner .right span{
+    position: absolute;
+    right: 0.8rem;top: 0.6rem;
+    color: white;
+    font-size: 1.15rem;
+}
+.nav{
+    width: 15.5rem;
+    height: 8.225rem;
+    background-color: #FFFFFF;
+    margin-top: 0.5rem;
+    margin-left: 0.25rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+}
+.nav ul{
+    padding-left: 0.775rem;
+}
+.nav li{
+    cursor: pointer;
+    width: 2.5rem;
+    height: 3.275rem;
+    float: left;
+    margin-right: 1.2rem;
+    margin-top: 0.6rem;
+}
+.nav li img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.nav p{
+    font-size: 0.525rem;
+    text-align: center;
+}
+.neirong{
+    margin-left: 0.25rem;
+    width: 15.5rem;
+    height: 10.25rem;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px rgba(0, 0, 0, .3);
+    margin-top: 0.5rem;
+}
+.neirong a{
+    font-size: 0.55rem;
+    color: black;
+}
+.neirong span{
+    font-size: 0.65rem;
+    color: #FF3F00;
+}
+.neirong h3{
+    font-size: 0.65rem;
+    color: #656565;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    font-weight: normal;
+    background: url(../img/bg1.png) no-repeat left center;
+    padding-left: 0.65rem;
+    margin-left: 0.35rem;
+    border-bottom: 0.025rem solid #DADADA;
+    background-size: 0.15rem 0.6rem;
+}
+
+.neirong .bottom .left{
+    width: 7.675rem;
+    height: 8.6rem;
+    background: url(../img/nr1.png) no-repeat 1.15rem 3.65rem;
+    border-right: 0.025rem solid #DADADA;
+    background-size: 5.9rem 4.125rem;
+}
+.neirong .bottom .left a{
+    margin-top: 1.2rem;
+    margin-left: 0.95rem;
+}
+.neirong .bottom .left span{
+    margin-left: 0.95rem;
+}
+.neirong .bottom .right{
+    width: 7.7rem;
+}
+.neirong .bottom .right .shang{
+    width: 7.8rem;
+    height: 4.2rem;
+    border-bottom: 1px solid #DBDBDB;
+    background: url(../img/nr2.png) no-repeat right bottom;
+    background-size: 3.825rem 4.075rem;
+}
+.neirong .bottom .right .shang a{
+    width: 3.4rem;
+    height: 1.425rem;
+    margin-top: 0.65rem;
+}
+.neirong .bottom .right .xia{
+    height: 4.2rem;
+    background: url(../img/nr3.png) no-repeat left bottom;
+    background-size: 3.5rem 3.75rem;
+}
+.neirong .bottom .right .xia a{
+   margin-left: 4.15rem;
+   margin-top: 1rem;
+   width: 2.225rem;
+   display: inline-block;
+}
+.neirong .bottom .right .xia span{
+    margin-top: 2.65rem;
+    margin-left: 4.15rem;
+}
+.banner2{
+    margin: 0.5rem 0.25rem;
+}
+.banner2 img{
+    width: 15.5rem;
+    height: 2.5rem;
+}
+.neirong2{
+    margin-left: 0.25rem;
+    width: 15.5rem;
+    height: 10.25rem;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px rgba(0, 0, 0, .3);
+    margin-top: 0.5rem;
+}
+.neirong2 a{
+    font-size: 0.55rem;
+    color: black;
+}
+.neirong2 span{
+    font-size: 0.65rem;
+    color: #FF3F00;
+}
+.neirong2 h3{
+    font-size: 0.65rem;
+    color: #656565;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    font-weight: normal;
+    background: url(../img/bg1.png) no-repeat left center;
+    padding-left: 0.65rem;
+    margin-left: 0.35rem;
+    border-bottom: 0.025rem solid #DADADA;
+    background-size: 0.15rem 0.6rem;
+}
+.neirong2 .bottom .left{
+    width: 7.6rem;
+    height: 8.6rem;
+}
+.neirong2 .bottom .left .shang{
+    height: 4.2rem;
+    border-bottom: 1px solid #DBDBDB;
+    background: url(../img/nr4.png) no-repeat right center;
+    background-size: 4.2rem;
+}
+.neirong2 .bottom .left .shang a{
+    margin-left: 0.575rem;
+}
+.neirong2 .bottom .left .shang span{
+    margin-left: 0.575rem;
+}
+.neirong2 .bottom .left  .xia{
+    height: 4.2rem;
+    background: url(../img/nr5.png) no-repeat 0.4rem center;
+    background-size: 2.4rem 3.85rem;
+}
+.neirong2 .bottom .left  .xia a{
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+}
+.neirong2 .bottom .left  .xia span{
+    margin-left: 3rem;
+}
+.neirong2 .bottom .right{
+    width: 7.7rem;
+    height: 8.575rem;
+    border-left: 1px solid #DADADA;
+    background: url(../img/nr6.png) no-repeat right bottom;
+    background-size: 5.325rem 5.85rem;
+}
+.neirong2 .bottom .right a{
+    margin-top: 1.05rem;
+    margin-left: 0.9rem;
+}
+.neirong2 .bottom .right span{
+    margin-top: 1.05rem;
+    margin-left: 0.9rem;
+}
+.banner3{
+    margin: 0.5rem 0.25rem;
+}
+.banner3 img{
+    width: 15.5rem;
+    height: 2.5rem;
+}
+.neirong3{
+    margin-left: 0.25rem;
+    width: 15.5rem;
+    height: 11.25rem;
+    background-color: #FFFFFF;
+    margin-top: 0.5rem;
+    box-shadow: 0 2px rgba(0, 0, 0, .3);
+    position: relative;
+}
+.neirong3 img{
+    position: absolute;
+    top: 8.75rem;;left: 0.425rem;
+    width: 2.05rem;
+    height: 2.05rem;
+}
+.neirong3 a{
+    font-size: 0.55rem;
+    color: black;
+}
+.neirong3 span{
+    font-size: 0.65rem;
+    color: #FF3F00;
+}
+.neirong3 h3{
+    font-size: 0.65rem;
+    color: #656565;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    font-weight: normal;
+    background: url(../img/bg1.png) no-repeat left center;
+    padding-left: 0.65rem;
+    margin-left: 0.35rem;
+    border-bottom: 0.025rem solid #DADADA;
+    background-size: 0.15rem 0.6rem;
+}
+
+.neirong3 .bottom .left{
+    width: 7.675rem;
+    height: 8.6rem;
+    background: url(../img/nr7.png) no-repeat right bottom;
+    border-right: 0.025rem solid #DADADA;
+    background-size: 5.1rem 5.1rem;
+}
+.neirong3 .bottom .left a{
+    margin-top: 1.2rem;
+    margin-left: 0.95rem;
+}
+.neirong3 .bottom .left span{
+    margin-left: 0.95rem;
+}
+.neirong3 .bottom .right{
+    width: 7.7rem;
+}
+.neirong3 .bottom .right .shang{
+    width: 7.8rem;
+    height: 4.2rem;
+    border-bottom: 1px solid #DBDBDB;
+    background: url(../img/nr8.png) no-repeat right bottom;
+    background-size: 3.825rem 4.075rem;
+}
+.neirong3 .bottom .right .shang a{
+    width: 5.1rem;
+    height: 1.425rem;
+    margin-top: 0.65rem;
+    display: inline-block;
+}
+.neirong3 .bottom .right .xia{
+    height: 4.2rem;
+    background: url(../img/nr9.png) no-repeat left bottom;
+    border-bottom: 0.025rem solid #DADADA;
+    background-size: 3.5rem 3.75rem;
+}
+.neirong3 .bottom .right .xia a{
+   margin-left: 4.15rem;
+   margin-top: 1rem;
+   width: 3.75rem;
+   display: inline-block;
+}
+.neirong3 .bottom .right .xia span{
+    margin-top: 2.65rem;
+    margin-left: 4.15rem;
+}
+.footer .top{
+    height: 1.1rem;
+    width: 16rem;
+    line-height: 1.1rem;
+    font-size: 0.3rem;
+}
+.footer .top a{
+    color: #2A8ADE;
+}
+.footer .top .left{
+    margin-left: 0.25rem;
+}
+.footer .top .left span{
+    padding: 0 0.4rem;
+}
+.footer .top .right{
+    margin-right: 0.75rem;
+    background: url(../img/bg2.png) right center no-repeat;
+    padding-right: 0.4rem;
+}
+.footer .bottom li{
+    height: 1.075rem;
+    background-color: #1771D2;
+    line-height: 1.075rem;
+    text-align: center;
+    font-size: 0.3rem;
+    color: white;
+}
+.footer .bottom li a{
+    color:white;
+}
+.footer .bottom li span{
+    padding: 0 0.4rem;
+}
+.footer .bottom li p{
+    color: #FFFF99;
+}
